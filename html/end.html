@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/QuizApp/css/style.css">
+    <title>Congrats !</title>
+</head>
+<body>  
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form action="">
+                <input type="text" id="username" name="username" placeholder="Username">
+                <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)">Save</button>
+            </form>
+
+            <a href="/QuizApp/game.html" class="btn">Play Again</a>
+            <a href="/QuizApp/index.html" class="btn">Go Home</a>
+        </div>
+    </div>
+    <script src="/QuizApp/js/end.js"></script>
+</body>
+</html>
